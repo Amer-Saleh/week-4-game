@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Crystals Collector Game</title>
+
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+     <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+	<h1 class = "margin"> CrystalsCollector!</h1>
+
+	<article class = "margin">
+		<p> You will be given a random number at the start of the game. </p>
+
+		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+
+		<p> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+
+		<p>	The value of each crystal is hiden from you until you click on it. </p>
+
+		<p> Each time when the game start, will change the value of each crystal.</p>
+	</article>
+
+	<div class = "margin" id = "container">
+
+		<div id = "randomNumber"> </div>
+
+		<aside>
+			<h5 id = "winsLossesAlert">  </h5>
+			<h5 id = "wins"> wins 0 </h5>
+			<h5 id = "losses"> Losses 0 </h5>
+		</aside>
+
+	</div> 
+
+	<div class = "margin" id = "images">
+		<img  id = "randomNumber-1"  class = "crystals" src = "assets/images/CrystalClear01.png" >
+
+		<img id = "randomNumber-2" class = "crystals" src = "assets/images/CrystalClear02.png" >
+
+		<img id = "randomNumber-3" class = "crystals" src = "assets/images/CrystalClear03.png" >
+
+		<img id = "randomNumber-4" class = "crystals" src = "assets/images/CrystalClear04.png" >
+	</div>
+
+	<h2 class = "margin"> Your total score is</h2>
+
+	<div class = "margin" id = "score"> 0 </div>
+
+</body>
+</html>

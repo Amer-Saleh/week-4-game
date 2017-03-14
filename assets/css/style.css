@@ -1,0 +1,95 @@
+html { height: 100%; }
+
+*{
+	box-sizing: border-box;
+	font-family: Arial, 'Helvetica Neue', Helvtica, sans-serif;
+
+}
+
+
+body{
+	background-image: url("../images/background.png");	
+	color: #777777;
+	min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height];
+    margin:0 auto; 
+    width:1200px; 
+}
+
+h1{
+	background-color: orange;
+	color: #ffffff;
+	width: 164px;
+	height: 58px;
+	padding: 20px 0 20px 0;
+	font-size: 22px;
+}
+
+
+article{
+	background-color: #ffffb3;
+	color: #33cc33;
+	width: 360px;
+	height: 450px;
+	padding: 20px 0 20px 0;
+}
+
+
+p, h5{
+	padding: 10px 0 10px 0;
+}
+#randomNumber{
+	background-color: #80ff80;
+	color: #000033;
+	font-size: 25px;
+	width: 190px;
+	height: 110px;
+	margin-right: 15px;
+	float: left;
+}
+
+
+aside{
+	background-color: #00ffff;
+	color: #000033;
+	width: 80px;
+	height: 110px;
+	float: left;
+}
+
+
+.margin{
+	margin: 20px 0 20px 20px;
+}
+
+
+#images{
+	clear: both;
+	padding-top: 20px
+}
+
+
+.crystals{
+	width:  80px;
+	height: 80px;
+}
+
+
+h2{
+	background-color: #00b3b3;
+	color: #ffffff;
+	font-size: 18px;
+	width: 200px;
+	height: 25px;
+	padding: 2px 0 2px 0;
+}
+
+
+#score{
+	background-color: #00b3b3;
+	color: #ffffff;
+	font-size: 25px;
+	width: 200px;
+	height: 110px;
+}
